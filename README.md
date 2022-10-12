@@ -1,31 +1,11 @@
 <html>
-   <head>
-      <title>JavaScript Animation</title>
-      
-      <script type = "text/javascript">
-            var imgObj = null;
-            
-            function init() {
-               imgObj = document.getElementById('myImage');
-               imgObj.style.position= 'relative'; 
-               imgObj.style.left = '0px'; 
-            }
-            
-            function moveRight() {
-               imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
-            }
-            
-            window.onload = init;
-      </script>
-   </head>
-   
-   <body>
-   
-      <form>
-         <img id = "myImage" src = "https://th.bing.com/th/id/OIP.hw3J7PRsP_WhlHdHeYy_KwHaEK?w=325&h=182&c=7&r=0&o=5&dpr=1.25&pid=1.7" />
-         <p>Click button below to move the image to right</p>
-         <input type = "button" value = "Click Me" onclick = "moveRight();" />
-      </form>
-      
-   </body>
+    <body>
+    <h1>MY FIRST WEBSITE</h1>
+    <P>Thanks for your interest, here is a quick stort of me.</P>
+<p>I am Tejaswi studing in vignan's nirula Insitute of technology and science for women. I like to do projects on the basis of different languages.</p>
+<p>I do my work mainly in C-Language, C++ and JAVA. C++ and Data Structure & Algorithm are my stronger section. Besides these I know Web Development, LINUX(basic) and database as well.</p>
+<p>This website is basically one of my Web Development project which is built using HTML only.</p>
+<p>Tejaswi,</p>
+<p>My Personal  Website.</P>
+</body>
 </html>
